@@ -18,6 +18,18 @@ body {
   width: 200px;
   height: 200px; }
 
+#team-members .member .secondary {
+  display: none; }
+
+#team-members .member:hover .secondary {
+  display: inline-block; }
+
+#team-members .member:hover .primary {
+  display: none; }
+
+#team-members .member img:hover {
+  opacity: 1.0; }
+
 #team-members .member div.name {
   text-align: center; }
 
